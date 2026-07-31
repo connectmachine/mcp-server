@@ -1,0 +1,25 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "ai.connectmachine/connectmachine",
+  "title": "ConnectMachine",
+  "description": "Manage your ConnectMachine contacts, networks, events, and digital business cards.",
+  "version": "1.0.8",
+  "websiteUrl": "https://connectmachine.ai/docs/mcp",
+  "repository": {
+    "url": "https://github.com/connectmachine/mcp-server",
+    "source": "github"
+  },
+  "icons": [
+    {
+      "src": "https://mcp.connectmachine.ai/logo.png",
+      "mimeType": "image/png",
+      "sizes": ["512x512"]
+    }
+  ],
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.connectmachine.ai/mcp"
+    }
+  ]
+}
