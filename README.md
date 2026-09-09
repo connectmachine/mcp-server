@@ -2,7 +2,7 @@
 
 [![MCP Registry](https://img.shields.io/badge/MCP_Registry-ai.connectmachine-000000?logo=modelcontextprotocol&logoColor=white)](https://registry.modelcontextprotocol.io/?q=ai.connectmachine)
 [![Smithery](https://img.shields.io/badge/Smithery-connectmachine%2Fcm--mcp-EA580C)](https://smithery.ai/servers/connectmachine/cm-mcp)
-[![Glama](https://img.shields.io/badge/Glama-mcp--server-7C3AED)](https://glama.ai/mcp/servers/connectmachine/mcp-server)
+[![ConnectMachine MCP Server MCP server – quality and maintenance score on Glama](https://glama.ai/mcp/servers/connectmachine/mcp-server/badges/score.svg)](https://glama.ai/mcp/servers/connectmachine/mcp-server)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
 Connect your AI assistant to [ConnectMachine](https://connectmachine.ai), the
