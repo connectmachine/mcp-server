@@ -1,7 +1,5 @@
 # ConnectMachine MCP Server
 
-[![smithery badge](https://smithery.ai/badge/connectmachine/cm-mcp)](https://smithery.ai/servers/connectmachine/cm-mcp)
-
 Connect your AI assistant to [ConnectMachine](https://connectmachine.ai), the
 digital business-card and contact platform. Manage contacts, events, networks,
 and your digital cards in natural language.
