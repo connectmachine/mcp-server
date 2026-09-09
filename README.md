@@ -1,5 +1,10 @@
 # ConnectMachine MCP Server
 
+[![MCP Registry](https://img.shields.io/badge/MCP_Registry-ai.connectmachine-000000?logo=modelcontextprotocol&logoColor=white)](https://registry.modelcontextprotocol.io/?q=ai.connectmachine)
+[![Smithery](https://img.shields.io/badge/Smithery-connectmachine%2Fcm--mcp-EA580C)](https://smithery.ai/servers/connectmachine/cm-mcp)
+[![Glama](https://img.shields.io/badge/Glama-mcp--server-7C3AED)](https://glama.ai/mcp/servers/connectmachine/mcp-server)
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+
 Connect your AI assistant to [ConnectMachine](https://connectmachine.ai), the
 digital business-card and contact platform. Manage contacts, events, networks,
 and your digital cards in natural language.
@@ -24,10 +29,14 @@ Requires a ConnectMachine account with onboarding completed in the app.
 
 ### Claude
 
+[![Add to Claude](https://img.shields.io/badge/Add_to_Claude-Custom_Connector-D97757?logo=claude&logoColor=white)](https://www.connectmachine.ai/docs/mcp/)
+
 Add it under Settings → Connectors → Add custom connector, using the endpoint
 above.
 
 ### Cursor
+
+[![Install MCP Server](https://cursor.com/deeplink/mcp-install-dark.svg)](https://cursor.com/install-mcp?name=connectmachine&config=eyJ1cmwiOiJodHRwczovL21jcC5jb25uZWN0bWFjaGluZS5haS9tY3AifQ%3D%3D)
 
 Install the [ConnectMachine plugin](https://github.com/connectmachine/cursor-plugin),
 or add the server to `~/.cursor/mcp.json`:
@@ -43,6 +52,8 @@ or add the server to `~/.cursor/mcp.json`:
 ```
 
 ### VS Code and GitHub Copilot
+
+[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Server-0098FF?logo=githubcopilot&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=connectmachine&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Fmcp.connectmachine.ai%2Fmcp%22%7D)
 
 Add the server to `.vscode/mcp.json`:
 
