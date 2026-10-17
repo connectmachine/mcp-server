@@ -25,7 +25,8 @@ Your client discovers the OAuth configuration automatically, so you never paste
 a token by hand. On first use it opens the ConnectMachine sign-in page; sign in
 with your account email (one-time code) or Google, and approve.
 
-Requires a ConnectMachine account with onboarding completed in the app.
+Any ConnectMachine account works, including free ones. Tools are available
+right after sign-in.
 
 ### Claude
 
@@ -67,6 +68,25 @@ Add the server to `.vscode/mcp.json`:
   }
 }
 ```
+
+### Cline
+
+Add the server to `cline_mcp_settings.json` (MCP Servers → Configure → Configure MCP Servers):
+
+```json
+{
+  "mcpServers": {
+    "connectmachine": {
+      "type": "streamableHttp",
+      "url": "https://mcp.connectmachine.ai/mcp"
+    }
+  }
+}
+```
+
+Set `type` to `streamableHttp` exactly. Without it Cline falls back to SSE and
+the server answers 405. See [llms-install.md](llms-install.md) for step-by-step
+setup an agent can follow.
 
 ### Static key instead of OAuth
 
