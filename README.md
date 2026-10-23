@@ -88,6 +88,14 @@ Set `type` to `streamableHttp` exactly. Without it Cline falls back to SSE and
 the server answers 405. See [llms-install.md](llms-install.md) for step-by-step
 setup an agent can follow.
 
+### Gemini CLI
+
+```bash
+gemini extensions install https://github.com/connectmachine/mcp-server
+```
+
+Then run `/mcp auth connectmachine` inside Gemini CLI to sign in.
+
 ### Static key instead of OAuth
 
 If your client cannot do the OAuth flow, sign in at
