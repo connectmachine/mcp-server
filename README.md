@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logo.png" alt="ConnectMachine" width="96" height="96">
+<img src="assets/logo-animated.gif" alt="ConnectMachine" width="112" height="112">
 
 # ConnectMachine MCP Server
 
