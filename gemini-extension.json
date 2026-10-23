@@ -1,0 +1,10 @@
+{
+  "name": "connectmachine",
+  "version": "1.0.8",
+  "description": "Manage your ConnectMachine contacts, networks, events, and digital business cards from Gemini CLI.",
+  "mcpServers": {
+    "connectmachine": {
+      "httpUrl": "https://mcp.connectmachine.ai/mcp"
+    }
+  }
+}
